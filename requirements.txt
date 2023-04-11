@@ -1,0 +1,11 @@
+tqdm
+torchvision
+pandas
+scikit-image
+streamlit
+matplotlib
+pillow
+numpy
+pydicom
+pyngrok
+opencv-python

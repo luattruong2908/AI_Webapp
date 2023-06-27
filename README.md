@@ -8,3 +8,5 @@
 
 Dataset: "https://www.kaggle.com/datasets/andyczhao/covidx-cxr2?select=competition_test"
 
+Run docker: docker run -p 8501:8501 luattruong2908/ai_webapp:latest
+

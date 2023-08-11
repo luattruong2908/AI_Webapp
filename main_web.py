@@ -43,9 +43,9 @@ def main_gui():
     if st.button('Xem thêm về mô hình'):
         col1, col2, col3 = st.columns([1, 8, 1])
         with col2:
-            df = pd.read_csv('model_eval.csv')
-            df = pd.DataFrame(df)
-            st.write(df)
+            #df = pd.read_csv('model_eval.csv')
+            #df = pd.DataFrame(df)
+            #st.write(df)
             image1 = 'cfs_matrix.png'
             image1 = cv2.imread(image1)
             image1 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)

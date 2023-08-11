@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 RUN pip install -r requirements.txt
 
 # Chạy lệnh khi container được khởi chạy
-CMD ["streamlit", "run", "main_web.py"]
+CMD ["streamlit", "run", "main_web.py", "--server.port", "8501", "--server.baseUrlPath", "/", "--server.enableCORS", "false", "--server.enableXsrfProtection", "false"]
